@@ -1,0 +1,8 @@
+[package]
+name = "rainbowtik"
+version = "0.1.0"
+authors = ["ZweiSpeedruns <zcm727@gmail.com>"]
+
+[dependencies]
+discord = "0.6.0"
+toml = "0.1"
