@@ -38,6 +38,10 @@ fn main()
                     {
                         let _ = discord.send_message(&message.channel_id, "!test recieved", "", false);
                     }
+                    "!chat" =>
+                    {
+                        let _ = discord.send_message(&message.channel_id, "No, Zwei is not adding a chat command", "", false);
+                    }
                     _ => {}
                 }
             }
